@@ -1,0 +1,45 @@
+#jobb, #bal {
+    margin-top: 6mm;
+    margin-bottom: 6mm;
+    border: 5px solid black;
+    border-style: dotted;
+    border-color: burlywood;
+}
+p {
+    text-align: justify;
+    background: cornsilk;
+    margin: 3mm;
+    padding-top: 2mm;
+    padding-bottom: 2mm;
+    padding-left: 6mm;
+    padding-right: 6mm;
+    text-indent: 1.5cm;
+}
+#bal {
+    width: 70%;
+}
+#jobb {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.piros {
+    border-right: 3mm solid darkred;
+    border-right-style: double;
+}
+.kék {
+    padding-bottom: 1mm;
+    border-left: 1mm solid blueviolet;
+    border-left-style: dashed;
+    border-bottom: 2mm solid blue;
+    border-bottom-style: dashed;
+}
+.piros span {
+    color: crimson;
+    font-variant: small-caps;
+}
+.kék span {
+    color: dodgerblue;
+    font-weight: bolder;
+    font-family: cambria;
+}
